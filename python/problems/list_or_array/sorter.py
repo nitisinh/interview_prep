@@ -19,10 +19,23 @@ class sorter:
     calls itself for the two halves, and then merges the two sorted halves.
     """
     def merge_sort(self, arr):
+        """
+        Merge sort is a divide-and-conquer algorithm that divides the input array into two halves,
+        calls itself for the two halves, and then merges the two sorted halves.
+        """
         pass
+    """
+    Quick sort is a divide-and-conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot.
+    """
     def quick_sort(self, arr):
+        
         pass
+    
+    """
+    Heap sort is a comparison-based sorting algorithm that divides the input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element and moving it to the sorted region.
+    """
     def heap_sort(self, arr):
+        
         pass
 
 
